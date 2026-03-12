@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: rgb(122, 0, 163);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(174, 0, 255);
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    display: block;
+}
+
+footer {
+    background-color: rgb(208, 172, 242);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.propriedade-display {
+
+}
+
+.temas {
+
+}
+
+#display {
+    
+}
