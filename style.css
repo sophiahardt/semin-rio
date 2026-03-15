@@ -33,6 +33,7 @@ footer {
 
 }
 
-#display {
-    
+.display {
+    background-color: antiquewhite;
+    border-radius: 10px;
 }
