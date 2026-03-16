@@ -26,7 +26,7 @@
         </div>
     </section>
 
-    <section id="temas">
+    <section>
         <div class="flex">
             <div class="display">
                 <h2>Display: Block</h2>
@@ -115,7 +115,7 @@
             </div>
 
             <div class="exemplo">
-        
+
             </div>
         </div>
 
@@ -163,12 +163,95 @@
 
             </div>
         </div>
-
     </section>
 
-    <footer>
-        <p>André Goudinho; Brayan Anzini; Isabella Balas e Sophia Hardt.</p>
-    </footer>
+    <section id="propriedade-position">
+        <div>
+            <h2>Conceito de Position</h2>
+            <p>A propriedade position define como um elemento pode ser posicionado no documento. </p>
+            <p>Essa propriedade pode ser acompanhada de outras: top, right, bottom e left. Que determinam como ficará a
+                localização final do objeto, permitindo seu deslocamento.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Static</h2>
+                <p>Todos os elementos HTML são posicionados estaticamente por padrão.</p>
+                <p>Elementos com esse posicionamento não são afetados pelas propriedades superior, inferior, esquerda e
+                    direita.</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Relative</h2>
+                <p>Um elemento com relative é posicionado em relação à sua posição normal no fluxo do documento.</p>
+                <p>Definir as propriedades superior, direita, inferior e esquerda fará com que o elemento seja ajustado
+                    para fora de sua posição normal.</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Absolute</h2>
+                <p>O elemento é posicionado em relação ao ancestral posicionado mais próximo.</p>
+                <p>No entanto, se um elemento com posicionamento absoluto não tiver ancestrais posicionados, ele usará o
+                    corpo do documento e se moverá junto com a rolagem da página.
+                </p>
+                <p><b>Nota:</b> Elementos com posicionamento absoluto são removidos do fluxo normal do documento e podem
+                    sobrepor-se a outros elementos.
+                </p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Fixed</h2>
+                <p>O elemento é posicionado em relação à janela de visualização.</p>
+                <p>Ou seja, ele permanece sempre no mesmo lugar, mesmo se a página for rolada. As propriedades `top`,
+                    `right`, `bottom` e `left` são usadas para definir a posição final do
+                    elemento.</p>
+                <p>Um elemento fixo não deixa um espaço em branco na página onde normalmente estaria localizado.</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Sticky</h2>
+                <p>Um elemento position: sticky; alterna entre uma posição fixa relative e uma fixed posição variável,
+                    dependendo da posição de rolagem.
+                </p>
+                <p>Um elemento fixo é posicionado de forma relativa até que uma determinada posição de rolagem seja
+                    alcançada - então ele "fixa" nesse local (como position:fixed).</p>
+            </div>
+
+            <div class="exemplo">
+                
+            </div>
+        </div>
+
+
+        <footer>
+            <p>André Goudinho; Brayan Anzini; Isabella Balas e Sophia Hardt.</p>
+        </footer>
 </body>
 
 </html>
