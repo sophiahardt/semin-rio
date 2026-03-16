@@ -34,6 +34,35 @@ footer {
     background-color: antiquewhite;
     border-radius: 10px;
     width: 50%;
-    text-align: center;
+    text-align: left;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.exemplo {
+    background-color: rgb(247, 202, 253);
+    border-radius: 10px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.flex
+{
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+
+}
+
+.exemplo.inline p{
+  display: inline;
+}
+
+.exemplo.inline-block p {
+  display: inline-block;
+}
+
+.exemplo.flex {
+  display: flex;
 }
 
