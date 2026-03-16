@@ -1,5 +1,4 @@
 body {
-    margin: 0;
     background-color: rgb(122, 0, 163);
 }
 
@@ -8,6 +7,7 @@ nav {
     justify-content: center;
     align-items: center;
     background-color:rgb(174, 0, 255);
+    border-radius: 20px;
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -26,7 +26,7 @@ footer {
 }
 
 .propriedade-display {
-
+    
 }
 
 .temas {
@@ -36,4 +36,6 @@ footer {
 .display {
     background-color: antiquewhite;
     border-radius: 10px;
+    width: 50%;
+    text-align: center;
 }
