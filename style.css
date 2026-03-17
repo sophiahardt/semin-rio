@@ -116,6 +116,38 @@ footer {
     padding: 20px;
 }
 
+.exemplo.block_flow p{
+    display: block flow;
+}
+
+.exemplo.block_flex p{
+    display: block flex;
+}
+
+.exemplo.block_grid p{
+    display: block grid;
+}
+
+.exemplo.block_flow-root p{
+    display: block flow-root;
+}
+
+.exemplo.grid p{
+    display: grid;
+}
+
+.exemplo.inline-grid p{
+    display: inline-grid;
+}
+
+.exemplo.flow-root p{
+    display: flow-root;
+}
+
+.exemplo.table p{
+    display: table;
+}
+
 .exemplo.static {
     
 }

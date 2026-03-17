@@ -189,7 +189,6 @@
                     <p>Paragrafo 7</p>
                     <p>Paragrafo 8</p>
                     <p>Paragrafo 9</p>
-                    <p>Paragrafo 10</p>
                 </div>
             </div>
         </div>
@@ -204,7 +203,7 @@
             </div>
 
             <div class="exemplo">
-                <div class="exemplo inline_grid">
+                <div class="exemplo block flow">
                     <p>Paragrafo 1</p>
                     <p>Paragrafo 2</p>
                     <p>Paragrafo 3</p>
@@ -220,138 +219,238 @@
         <div class="flex">
             <div class="display">
                 <h2>Display: block flex </h2>
-                O display block não é possível ser utilizado no mesmo elemento juntamente com o flex, o display block faz
-                com que um elemento HTML seja renderizado como bloco ou parágrafos e o display flex é um recurso do CSS que
-                serve para organizar elementos em containers de forma flexível de acordo com a sua necessidade
+                O display block não é possível ser utilizado no mesmo elemento juntamente com o flex, o display
+                block faz com que um elemento HTML seja renderizado como bloco ou parágrafos e o display flex é
+                um recurso do CSS que serve para organizar elementos em containers de forma flexível de acordo
+                com a sua necessidade
             </div>
-        </div>
-            
-           
 
-            <div class="flex">
-                <div class="display">
-                    <h2>Display: block grid </h2>
-                    O display Grid transforma o contêiner em grade, já o display block faz com que os itens dentro da
-                    grade se organizem automáticamente dentro células definidas pelas colunas e linhas
+            <div class="exemplo">
+                <div class="exemplo block flex">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                    <p>Paragrafo 5</p>
+                    <p>Paragrafo 6</p>
+                    <p>Paragrafo 7</p>
                 </div>
             </div>
+        </div>
 
+        <div class="flex">
+            <div class="display">
+                <h2>Display: block grid </h2>
+                O display Grid transforma o contêiner em grade, já o display block faz com que os itens dentro da
+                grade se organizem automáticamente dentro células definidas pelas colunas e linhas
+            </div>
+
+            <div class="exemplo">
+                <div class="exemplo block grid">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="display">
+                <h2>Display: grid</h2>
+                A propriedade display com valor grid é o ponto de partida para criar um grid container. Ela transforma
+                um elemento HTML em um contêiner de grade, onde você pode organizar os elementos filhos em linhas e
+                colunas.
+            </div>
+
+            <div class="exemplo">
+                <div class="exemplo grid">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                    <p>Paragrafo 5</p>
+                    <p>Paragrafo 6</p>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="display">
+                <h2>Display: inline-grid</h2>
+                O display inline-grid transforma um elemento em um contêiner de grid, mas que se comporta como um
+                elemento inline
+                (em linha) em relação aos vizinhos. Ele serve para quando você quer usar as ferramentas de alinhamento
+                do CSS Grid
+                (colunas, linhas, gaps), mas não quer que o elemento ocupe a largura inteira da tela ou quebre a linha.
+            </div>
+
+            <div class="exemplo">
+                <div class="exemplo inline-grid">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="display">
+                <h2>Display: flow-root</h2>
+                Gera uma caixa de elemento de bloco que estabelece um novo contexto de formatação de bloco, definindo
+                onde se encontra
+                a raiz da formatação.
+            </div>
+
+            <div class="exemplo">
+                <div class="exemplo flow-root">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                    <p>Paragrafo 5</p>
+                    <p>Paragrafo 6</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="display">
+                <h2>Display: table</h2>
+                A tag "table" é o contêiner principal, contendo elementos como "tr" em linhas, "td" em células de dados e 
+                "th" em cabeçalhos de células. O ideal é que ela seja usada dentro do "body" e é mais indicada para dados 
+                tabulares, não para layouts (para isso, deve-se usar o CSS) 
+
+
+            </div>
+
+            <div class="exemplo">
+                <div class="exemplo table">
+                    <p>Paragrafo 1</p>
+                    <p>Paragrafo 2</p>
+                    <p>Paragrafo 3</p>
+                    <p>Paragrafo 4</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-                
-                    
 
 
 
-                    <section id="propriedade-position">
-                        <div>
-                            <h2>Conceito de Position</h2>
-                            <p>A propriedade position define como um elemento pode ser posicionado no documento. </p>
-                            <p>Essa propriedade pode ser acompanhada de outras: top, right, bottom e left. Que
-                                determinam como
-                                ficará a
-                                localização final do objeto, permitindo seu deslocamento.</p>
-                        </div>
-                    
-
-                    
-                        <div class="flex">
-                            <div class="position">
-                                <h2>Position: Static</h2>
-                                <p>Todos os elementos HTML são posicionados estaticamente por padrão.</p>
-                                <p>Elementos com esse posicionamento não são afetados pelas propriedades superior,
-                                    inferior,
-                                    esquerda e
-                                    direita.</p>
-                            </div>
-
-                            <div class="exemplo">
-
-                            </div>
-                        </div>
-
-                        <div class="flex">
-                            <div class="position">
-                                <h2>Position: Relative</h2>
-                                <p>Um elemento com relative é posicionado em relação à sua posição normal no fluxo do
-                                    documento.
-                                </p>
-                                <p>Definir as propriedades superior, direita, inferior e esquerda fará com que o
-                                    elemento seja
-                                    ajustado
-                                    para fora de sua posição normal.</p>
-                            </div>
-
-                            <div class="exemplo">
-
-                            </div>
-                        </div>
-
-                        <div class="flex">
-                            <div class="position">
-                                <h2>Position: Absolute</h2>
-                                <p>O elemento é posicionado em relação ao ancestral posicionado mais próximo.</p>
-                                <p>No entanto, se um elemento com posicionamento absoluto não tiver ancestrais
-                                    posicionados, ele
-                                    usará o
-                                    corpo do documento e se moverá junto com a rolagem da página.
-                                </p>
-                                <p><b>Nota:</b> Elementos com posicionamento absoluto são removidos do fluxo normal do
-                                    documento
-                                    e podem
-                                    sobrepor-se a outros elementos.
-                                </p>
-                            </div>
-
-                            <div class="exemplo">
-
-                            </div>
-                        </div>
-
-                        <div class="flex">
-                            <div class="position">
-                                <h2>Position: Fixed</h2>
-                                <p>O elemento é posicionado em relação à janela de visualização.</p>
-                                <p>Ou seja, ele permanece sempre no mesmo lugar, mesmo se a página for rolada. As
-                                    propriedades
-                                    `top`,
-                                    `right`, `bottom` e `left` são usadas para definir a posição final do
-                                    elemento.</p>
-                                <p>Um elemento fixo não deixa um espaço em branco na página onde normalmente estaria
-                                    localizado.
-                                </p>
-                            </div>
-
-                            <div class="exemplo">
-
-                            </div>
-                        </div>
-
-                        <div class="flex">
-                            <div class="position">
-                                <h2>Position: Sticky</h2>
-                                <p>Um elemento position: sticky; alterna entre uma posição fixa relative e uma fixed
-                                    posição
-                                    variável,
-                                    dependendo da posição de rolagem.
-                                </p>
-                                <p>Um elemento fixo é posicionado de forma relativa até que uma determinada posição de
-                                    rolagem
-                                    seja
-                                    alcançada - então ele "fixa" nesse local (como position:fixed).</p>
-                            </div>
-
-                            <div class="exemplo">
-
-                            </div>
-                        </div>
-                    </section>
 
 
-                        <footer>
-                            <p>André Goudinho; Brayan Anzini; Isabella Balas e Sophia Hardt.</p>
-                        </footer>
+    <section id="propriedade-position">
+        <div>
+            <h2>Conceito de Position</h2>
+            <p>A propriedade position define como um elemento pode ser posicionado no documento. </p>
+            <p>Essa propriedade pode ser acompanhada de outras: top, right, bottom e left. Que
+                determinam como
+                ficará a
+                localização final do objeto, permitindo seu deslocamento.</p>
+        </div>
+
+
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Static</h2>
+                <p>Todos os elementos HTML são posicionados estaticamente por padrão.</p>
+                <p>Elementos com esse posicionamento não são afetados pelas propriedades superior,
+                    inferior,
+                    esquerda e
+                    direita.</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Relative</h2>
+                <p>Um elemento com relative é posicionado em relação à sua posição normal no fluxo do
+                    documento.
+                </p>
+                <p>Definir as propriedades superior, direita, inferior e esquerda fará com que o
+                    elemento seja
+                    ajustado
+                    para fora de sua posição normal.</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Absolute</h2>
+                <p>O elemento é posicionado em relação ao ancestral posicionado mais próximo.</p>
+                <p>No entanto, se um elemento com posicionamento absoluto não tiver ancestrais
+                    posicionados, ele
+                    usará o
+                    corpo do documento e se moverá junto com a rolagem da página.
+                </p>
+                <p><b>Nota:</b> Elementos com posicionamento absoluto são removidos do fluxo normal do
+                    documento
+                    e podem
+                    sobrepor-se a outros elementos.
+                </p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Fixed</h2>
+                <p>O elemento é posicionado em relação à janela de visualização.</p>
+                <p>Ou seja, ele permanece sempre no mesmo lugar, mesmo se a página for rolada. As
+                    propriedades
+                    `top`,
+                    `right`, `bottom` e `left` são usadas para definir a posição final do
+                    elemento.</p>
+                <p>Um elemento fixo não deixa um espaço em branco na página onde normalmente estaria
+                    localizado.
+                </p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+
+        <div class="flex">
+            <div class="position">
+                <h2>Position: Sticky</h2>
+                <p>Um elemento position: sticky; alterna entre uma posição fixa relative e uma fixed
+                    posição
+                    variável,
+                    dependendo da posição de rolagem.
+                </p>
+                <p>Um elemento fixo é posicionado de forma relativa até que uma determinada posição de
+                    rolagem
+                    seja
+                    alcançada - então ele "fixa" nesse local (como position:fixed).</p>
+            </div>
+
+            <div class="exemplo">
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>André Goudinho; Brayan Anzini; Isabella Balas e Sophia Hardt.</p>
+    </footer>
 </body>
 
 </html>
