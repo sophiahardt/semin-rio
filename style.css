@@ -30,6 +30,11 @@ footer {
     color: aliceblue;
 }
 
+#propriedade-position p {
+    padding: 10px;
+    color: aliceblue;
+}
+
 
 .display {
     background-color: antiquewhite;
@@ -192,7 +197,3 @@ footer {
 
 }
 
-#propriedade-position p {
-    padding: 10px;
-    color: aliceblue;
-}
