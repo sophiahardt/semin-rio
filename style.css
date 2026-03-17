@@ -75,3 +75,18 @@ footer {
   display: flex;
 }
 
+.exemplo.inline_flex p{
+    display: inline flex;
+    height: 200px;
+    width: 200px;
+}
+
+.exemplo.inline_grid p{
+    display: inline grid;
+    height: 100px;
+    width: 100px;
+}
+
+.exemplo.inline_flow-root p{
+    display: inline flow-root;
+}
