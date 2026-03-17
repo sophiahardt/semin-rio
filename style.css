@@ -118,34 +118,73 @@ footer {
 
 .exemplo.block_flow p{
     display: block flow;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
 }
 
 .exemplo.block_flex p{
     display: block flex;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.block_grid p{
     display: block grid;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.block_flow-root p{
     display: block flow-root;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.grid p{
     display: grid;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.inline-grid p{
     display: inline-grid;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.flow-root p{
     display: flow-root;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.table p{
     display: table;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.exemplo.inline-flex p{
+    display: inline-flex;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+.exemplo.inline_flow-root p{
+    display: inline flow-root;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
 .exemplo.static {
