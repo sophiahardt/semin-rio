@@ -60,11 +60,12 @@ footer {
     display: flex;
     padding: 5px;
     gap: 5px;
-
 }
 
 .exemplo.inline p{
   display: inline;
+  border: 10px;
+  background-color: blueviolet;
 }
 
 .exemplo.inline-block p {
