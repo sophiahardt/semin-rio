@@ -53,6 +53,7 @@ footer {
     border-radius: 10px;
     width: 50%;
     justify-content: space-between;
+    padding: 20px;
 }
 
 .flex
@@ -62,32 +63,55 @@ footer {
     gap: 5px;
 }
 
+.exemplo.block p {
+    display: block;
+    border: 10px;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
 .exemplo.inline p{
   display: inline;
   border: 10px;
-  background-color: blueviolet;
+  padding: 20px;
+  background-color: antiquewhite;
 }
 
 .exemplo.inline-block p {
   display: inline-block;
+  border: 10px;
+  padding: 20px;
+  background-color: antiquewhite;
 }
 
-.exemplo.flex {
+.exemplo.flex p {
   display: flex;
+  border: 10px;
+  padding: 20px;
+  background-color: antiquewhite;
 }
 
-.exemplo.inline_flex p{
+.exemplo.inline_flex p {
     display: inline flex;
-    height: 200px;
+    height: 90px;
     width: 200px;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
-.exemplo.inline_grid p{
+.exemplo.inline_grid p {
     display: inline grid;
     height: 100px;
     width: 100px;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
 
-.exemplo.inline_flow-root p{
+.exemplo.inline_flow-root p {
     display: inline flow-root;
+    border: 10px;
+    background-color: antiquewhite;
+    padding: 20px;
 }
