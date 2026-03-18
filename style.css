@@ -206,23 +206,14 @@ footer {
     padding: 20px;
 }
 
-.exemplo.static p {
-    
+.exemplo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.exemplo.relative {
-    
-}
-
-.exemplo.absolute {
-
-}
-
-.exemplo.fixes {
-
-}
-
-.exemplo.sticky {
-
+.exemplo img {
+    max-width: 400px;
+    width: 100%;
 }
 
