@@ -100,7 +100,7 @@ footer {
 }
 
 .exemplo.inline_flex p {
-    display: inline flex;
+    display: inline-flex;
     height: 30px;
     width: 200px;
     border: 10px;
@@ -109,7 +109,7 @@ footer {
 }
 
 .exemplo.inline_grid p {
-    display: inline grid;
+    display: inline-grid;
     height: 100px;
     width: 100px;
     border: 10px;
@@ -139,21 +139,21 @@ footer {
 }
 
 .exemplo.block_flow p{
-    display: block flow;
+    display: block;
     border: 10px;
     background-color: antiquewhite;
     padding: 20px;
 }
 
 .exemplo.block_flex p{
-    display: block flex;
+    display: flex;
     border: 10px;
     background-color: antiquewhite;
     padding: 20px;
 }
 
 .exemplo.block_grid p{
-    display: block grid;
+    display: grid;
     border: 10px;
     background-color: antiquewhite;
     padding: 20px;
@@ -208,13 +208,14 @@ footer {
     padding: 20px;
 }
 
-.exemplo {
+.exemplo.position p {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.exemplo img {
+.exemplo.position img {
     width: 150px;
 }
 
